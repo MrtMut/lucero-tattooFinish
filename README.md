@@ -21,3 +21,6 @@ Verdes: #009846
 
 **Creación de logo**
 ![Esta es una imagen](./tattofinishcolor.png)
+
+**Figma**
+https://www.figma.com/file/j0ZzujnhBQEZDjqIpprcbh/TATTOFINISH?node-id=0%3A1
