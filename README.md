@@ -20,7 +20,7 @@ Amarillos: #FEE764
 Verdes: #009846
 
 **Creación de logo**
-![Esta es una imagen](./tattofinishcolor.png)
+![Esta es una imagen](./logo_dont_cry.png)
 
 **Figma**
-https://www.figma.com/file/j0ZzujnhBQEZDjqIpprcbh/TATTOFINISH?node-id=0%3A1
+https://www.figma.com/file/j0ZzujnhEZDjqIpprcbh/TATTOFINISH?node-id=0%3A1
