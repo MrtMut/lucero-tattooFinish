@@ -56,7 +56,7 @@
     width: 100%;
     max-width: 1000px;
     height: 500px;
-    background-image: url(image/home/fondoinvitados.png);
+    background-image: url(/image/home/fondoinvitados.png);
     background-repeat: no-repeat;
     /* margin: 20px; */
     border-radius: 50px;
