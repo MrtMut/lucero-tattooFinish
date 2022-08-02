@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.section_cat_container{
+    width: 100%;
+    height: 120px;
+    background-image: url(image/fondos/fondo_categorias.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat_container{
+    width: 100%;
+    max-width: 900px;
+    /* height: 150px; */
+    display: grid;
+    
+    grid-auto-flow: column;
+    grid-auto-columns: 15%;
+    justify-content:start;
+    margin: 0 auto ;
+    /* margin-top: 20px; */
+    
+ 
+    
+    overflow: hidden;
+    /* overflow-y: scroll; */
+    /* transform: rotate(-90deg); */
+   
+  
+    /* cursor: pointer; */
+    /* scroll-snap-type: y mandatory ; */
+    /* --webkit-overflow-scrolling: touch; */
+    /* padding: 10px; */
+    /* text-align: center; */
+    /* background-color:aquamarine */
+    /* background-image: url('sin fondocat1.png'); */
+    /* background-position: center;
+    background-repeat: cover; */
+    
+    /* display: flex; */
+    
+    /* flex-wrap: wrap; */
+    
+}
+
+.cat_subcontainer{
+  
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 20px; */
+    /* margin-top: 15px; */
+    /* background-color: aqua; */
+    /* scroll-snap-align: start; */
+    /* transform: rotate(90deg); */
+
+} 
+
+.cat_subcontainer h4 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+    margin-top: 5px;
+
+}
+
+.anillo_radius{
+    
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px  #74a1ca solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+.cat_radius{
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    /* border: 2px black solid; */
+    
+    overflow: hidden;
+    object-fit: cover;
+    
+    transition: all 300ms ease;
+
+}
+
+.cat_radius:hover{
+    /* width: 65px; */
+    /* height: 65px; */
+    transform: scale(1.1);
+}
+
+.cat_radius img {
+    width:100%;
+    height: 55px;
+}
+
+.cat_radius img:hover{
+    height: 65px;
+}
+
+
+
+
+@media (min-width:768px) and (max-width:1023px){
+    .cat_subcontainer{
+        margin: 0 10px;
+        justify-content: center;
+        margin-top: 15px;
+        
+    
+    } 
+}
+
+@media (min-width:481px) and (max-width:767px){
+    .cat_container{
+    
+        width: 100%;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns:20%;
+        overflow-x:  auto ;
+        
+        /* overscroll-behavior-inline para que al llegar a un extremo controle que no se vuelva 
+        repentinamente a un inicio */
+        overscroll-behavior-inline: contain; 
+        background-color: transparent;
+        justify-content: start;
+        
+    }
+}
+/* ============================================================================================== */
+
+
+@media (min-width:320px) and (max-width:480px){
+
+    .section_cat_container{
+        width: 100%;
+        height: 90px;
+        background-image: url();
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cat_container{
+    
+        width: 100%;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 30%;
+        overscroll-behavior-inline: contain; 
+        overflow-x:  auto ;
+        margin-top: 4px;
+        
+
+        /* overscroll-behavior-inline para que al llegar a un extremo controle que no se vuelva 
+        repentinamente a un inicio */
+        
+        background-color: transparent;
+        /* justify-content: start; */
+        
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .cat_subcontainer{
+        margin: 0 10px;
+        margin-top: 9px;
+        
+    
+    } 
+
+    .cat_subcontainer{
+
+        width:70px;
+        background-color: transparent;
+    
+    } 
+
+    .cat_radius{
+        width:45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+
+    .cat_radius:hover{
+        /* width: 52px; */
+        /* height: 52px; */
+        transform: scale(1.1);
+    }
+
+    .anillo_radius{
+    
+        width: 52px;
+        height: 52px;
+    }
+
+    .cat_subcontainer h4 {
+        font-size: 0.6rem;
+        margin-top: 2px;
+    
+    }
+}

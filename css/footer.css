@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footer_container{
+    width:100%;
+    height: 300px;
+    background-color: #2B2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+
+   
+  
+}
+
+.logo_copy_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_copy_container img{
+    height: 200px;
+    margin: 30px 50px;
+}
+
+.logo_copy_container h6{
+    color: white;
+}
+
+
+
+.duo_container{
+    width: 100%;
+    max-width: 127px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin: auto 0;
+}
+
+.duo_container a {
+    color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+   
+}
+
+.box_container_footer{
+    width: 100%;
+    max-width: 127px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.duo_container{
+    display: flex;
+  
+    justify-content: space-between;
+    
+}
+
+
+@media (min-width:320px) and (max-width: 440px){
+    
+.footer_container{
+    width:100%;
+    height: 300px;
+    background-color: #2B2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+
+   
+  
+}
+
+.logo_copy_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_copy_container img{
+    height: 200px;
+    margin: 30px 50px;
+}
+
+.logo_copy_container h6{
+    color: white;
+}
+
+
+
+.duo_container{
+    width: 100%;
+    max-width: 127px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin: auto 0;
+}
+
+.duo_container a {
+    color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+   
+}
+
+.box_container_footer{
+    width: 100%;
+    max-width: 127px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.duo_container{
+    display: flex;
+  
+    justify-content: space-between;
+    
+}
+}
+
+
+
+
+
+

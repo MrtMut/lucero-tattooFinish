@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --azul: #2B4858;
+}
+.imagen_banner_container{
+    width: 100%;
+    max-width: 1300px;
+    /* height: 442px; */
+    margin: 0 auto;
+    object-fit: cover;
+    text-align: center;
+    /* margin-top: 60px; */
+    padding: 20px 20px;
+    /* background-color: beige; */
+}
+
+.imagen_banner_container img{
+    width: 100%;
+    max-width: 900px;
+    
+    /* padding: 20px; */
+}
+
+.hr_banner{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+.hr_dos_banner{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+
+
+/* =================================================================================================== */
+
+.imagen_banner_invitados_container{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    background-image: url(image/home/fondoinvitados.png);
+    background-repeat: no-repeat;
+    /* margin: 20px; */
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: grid;
+    box-shadow: 4px 5px 11px 0px rgba(0,0,0,0.75);
+   
+   
+ 
+    
+    
+   
+    
+}
+
+.invitados_container{
+    width: 100%;
+    max-width: 750px;
+    height: 150px;
+    /* background-color: aquamarine; */
+    display: flex;
+    margin:  0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 135px;
+   
+    /* padding: 90px; */
+}
+
+.invitado{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(65, 85, 78);
+    border-radius: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    
+
+    
+}
+
+.invitado img{
+    width: 100%;
+}
+
+.artistas_container{
+    width: 100%;
+    max-width: 600px;
+    /* background-color: azure; */
+    text-align: center;
+    padding-top: 110px;
+    margin: 0 auto;
+    
+}
+
+.h2_artistas{
+    display: inline;
+    margin-top: 150px;
+    font-size: 1.9rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.span_invitados{
+    font-size: 1.9rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+
+.artistas_container p{
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    
+    
+}
+
+.span_leerMas{
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: var(--azul);
+}
+
+
+/* =================================================================================================== */
+
+
+@media (min-width:320px) and (max-width:411px){
+    
+    .imagen_banner_invitados_container{
+        width: 100%;
+        max-width: 310px;
+        height: 250px;
+        background-image: url(image/home/fondoinvitados.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        border-radius: 20px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+       
+        display: grid;
+        box-shadow: 4px 5px 11px 0px rgba(0,0,0,0.75);
+       
+       
+     
+        
+        
+       
+        
+    }
+    
+    .invitados_container{
+        width: 100%;
+        max-width: 350px;
+        height: 70px;
+        /* background-color: aquamarine; */
+        display: flex;
+        margin:  0 auto;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        top: 35px;
+       
+        /* padding: 90px; */
+    }
+    
+    .invitado{
+        width: 70px;
+        height: 70px;
+        background-color: rgb(65, 85, 78);
+        border-radius: 100%;
+        overflow: hidden;
+        object-fit: cover;
+        
+    
+        
+    }
+    
+    .invitado img{
+        width: 100%;
+    }
+    
+    .artistas_container{
+        width: 100%;
+        max-width: 270px;
+        /* background-color: azure; */
+        text-align: center;
+        padding-top: 20px;
+        margin: 0 auto;
+        
+    }
+    
+    .h2_artistas{
+        display: inline;
+        margin-top: 0px;
+        font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+    }
+    
+    .span_invitados{
+        font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+    }
+    
+    
+    .artistas_container p{
+        font-size: 0.8rem;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        margin-top: 5px;
+        
+        
+    }
+    
+    .span_leerMas{
+        font-size: 0.6rem;
+        font-weight: 600;
+        color: var(--azul);
+    }
+}
+
+
+
+
+
